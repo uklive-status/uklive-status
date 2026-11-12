@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: check-live
-  cancel-in-progress: false
+  cancel-in-progress: true   # a new run cancels any in-progress run
 
 jobs:
   check:
