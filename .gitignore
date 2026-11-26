@@ -4,3 +4,5 @@ __pycache__/
 *.json.key
 sa*.json
 .env
+live.json
+old_live.json
